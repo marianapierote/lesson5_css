@@ -1,0 +1,13 @@
+Comandos importantes do git
+
+1. Configuração da máquina
+ - git config --global user.name
+ - git config --global user.email
+
+2. Clone do repositório
+ - git clone "https://github.com/..."
+
+3. Passos para atualizar um repositório
+ - git add .
+ - git commit -m "mensagem descrevendo o conteúdo"
+ - git push origin main

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Formulario HTML</title>
+  <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+  <main>
+    <div class="div-login">
+      <h1>Bem vindo(a)!</h1>
+      <p><span>Para se manter conectado conosco, </span> por favor, logue ao lado com suas informações pessoais</p>
+      <a href="login.html">Entrar</a>
+    </div>
+    <div class="div-cadastro">
+      <h2>Criar conta</h2>
+      <div class="rede-social">
+        <div class="icone">
+          <i class="fa-brands fa-facebook-f" style="color: #989aa0;"></i>
+        </div>
+        <div class="icone">
+          <i class="fa-brands fa-google" style="color: #989aa0;"></i>
+        </div>
+        <div class="icone">
+          <i class="fa-brands fa-linkedin-in" style="color: #989aa0;"></i>
+        </div>
+      </div>
+      <p>Abaixo, registre-se com seu email</p>
+      <form class="form-registro">
+        <div> 
+           <label for="nome" hidden>Nome</label>
+           <div class="div-input">
+             <i class="fa-solid fa-user" style="color: #242628;"></i>
+             <input type="text" id="nome" required placeholder="Nome">
+           </div>
+        </div>
+        <div>
+          <label for="email" hidden>Email</label>
+          <div class="div-input">
+            <i class="fa-solid fa-envelope" style="color: #242628;"></i>
+            <input type="email" name="email" id="email" required placeholder="Email">
+          </div>
+        </div>
+        <div>
+          <label for="senha" hidden>Senha</label>
+          <div class="div-input">
+            <i class="fa-solid fa-lock" style="color: #242628;"></i>
+            <input class="input-senha" type="password" name="senha" id="senha" required placeholder="Senha">
+          </div>
+        </div>
+        <a>REGISTRE-SE</a>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

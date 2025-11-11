@@ -1,0 +1,136 @@
+* {
+  border: 0;
+  margin: 0; /* espaçamento externo */
+  padding: 0; /* espaçamento interno */
+  outline: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --primary: #7a0d32;
+  --light-gray: #ECF0F1;
+  --dark-gray: #949E9F;
+}
+
+body{
+  height: 100vh;
+  padding: 25px 50px;
+  background-color: var(--light-gray);
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+.div-cadastro, .div-login {
+  border: 1px solid transparent; 
+}
+
+
+.div-login {
+  border-radius: 24px 0 0 24px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 15px;
+  background: linear-gradient(90deg, #995d6c, #7a0d32);
+  color: #fff;
+  text-align: center;
+}
+
+.div-login > p {
+  line-height: 40px;
+  font-size: 24px;
+}
+
+a { 
+  text-transform: uppercase;
+  width: 30%;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.div-login > a {
+  font-size: 10px;
+  padding: 10px 40px;
+  margin: 10px 0px;
+}
+
+.Login-span {
+  display:block;
+}
+
+
+.div-cadastro {
+  border-radius: 0 24px 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.div-cadastro > h2 {
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.div-cadastro > p {
+  color: var(--dark-gray);
+}
+
+.form-registro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+.form-registro > a {
+  font-size: 14px;
+  padding: 7px 20px;
+  background-color: var(--primary);
+  margin: 0 auto;
+}
+
+.form-registro input {
+  width: 100%;
+  background-color: #ecf0f1;
+}
+
+.div-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  padding: 20px 3px;
+}
+
+
+.rede-social {
+  display: flex;
+  gap: 10px;
+}
+
+.icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
+}
